@@ -1,0 +1,40 @@
+<template>
+  <div class="page">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="title">Animated Tabbar</div>
+      </div>
+    </div>
+
+    <!-- Tabs container with animated class -->
+    <div class="tabs-animated-wrap">
+      <div class="tabs">
+
+        <div id="tab-home" class="page-content tab tab-active">
+          <div class="block">🏠 This is the Home tab</div>
+        </div>
+        <div id="tab-about" class="page-content tab">
+          <div class="block">ℹ️ This is the About tab</div>
+        </div>
+        <div id="tab-profile" class="page-content tab">
+          <div class="block">👤 This is the Profile tab</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabbar toolbar -->
+    <div class="toolbar tabbar toolbar-bottom custom-tabbar">
+      <div class="toolbar-inner">
+        <a href="#tab-home" class="tab-link tab-link-active">
+          <i class="icon f7-icons">house_fill</i>
+        </a>
+        <a href="#tab-about" class="tab-link">
+          <i class="icon f7-icons">info_circle</i>
+        </a>
+        <a href="#tab-profile" class="tab-link">
+          <i class="icon f7-icons">person</i>
+        </a>
+      </div>
+    </div>
+  </div>
+</template>

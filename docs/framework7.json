@@ -1,0 +1,19 @@
+{
+  "cwd": "D:\\GitHub\\framework7\\docs",
+  "type": [
+    "pwa",
+    "web"
+  ],
+  "name": "My App",
+  "framework": "core",
+  "template": "split-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#ef5350",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
